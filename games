@@ -1,1 +1,18 @@
+local Games = {
+    [3101667897] = "glitchhubrevamp/main/legendofspeed";
+    [2580982329] = "glitchhubrevamp/main/textingsim";
 
+}
+
+local Supported = Games[game.PlaceId] or false
+if Supported ~= false then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/2alivelol/' .. Supported))()
+end
+
+if not game.PlaceId == Supported  then
+   local hint = Instance.new("Hint",game.CoreGui)
+    local req = (syn and syn.request) or (http and http.request) or http_request or request
+        print("Not a supported game")
+        hint.Text = "This game is not supported"
+    delay(5,function() hint:destroy() end)
+end
