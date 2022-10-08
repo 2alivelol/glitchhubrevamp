@@ -2,6 +2,7 @@ local Games = {
     [3101667897] = "glitchhubrevamp/main/legendofspeed";
     [2580982329] = "glitchhubrevamp/main/textingsim";
     [5342047554] = "glitchhubrevamp/main/bb2";
+    [10425191433] = "glitchhubrevamp/main/trickshot";
 
 }
 
