@@ -3,6 +3,7 @@ local Games = {
     [2580982329] = "glitchhubrevamp/main/textingsim";
     [5342047554] = "glitchhubrevamp/main/bb2";
     [10425191433] = "glitchhubrevamp/main/trickshot";
+    [286090429] = "glitchhubrevamp/main/arsenal";
 
 }
 
