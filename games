@@ -1,21 +1,13 @@
-local Games = {
-    [3101667897] = "glitchhubrevamp/main/legendofspeed";
-    [2580982329] = "glitchhubrevamp/main/textingsim";
-    [5342047554] = "glitchhubrevamp/main/bb2";
-    [10425191433] = "glitchhubrevamp/main/trickshot";
-    [286090429] = "glitchhubrevamp/main/arsenal";
-
-}
-
-local Supported = Games[game.PlaceId] or false
-if Supported ~= false then
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/2alivelol/' .. Supported))()
-end
-
-if not game.PlaceId == Supported  then
-   local hint = Instance.new("Hint",game.CoreGui)
-    local req = (syn and syn.request) or (http and http.request) or http_request or request
-        print("Not a supported game")
-        hint.Text = "This game is not supported"
-    delay(5,function() hint:destroy() end)
-end
+if game.PlaceId == 286090429 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2alivelol/glitchhubrevamp/main/arsenal", true))()
+if game.PlaceId == 2580982329 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2alivelol/glitchhubrevamp/main/textingsim", true))()
+if game.PlaceId == 5342047554 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2alivelol/glitchhubrevamp/main/bb2", true))()
+if game.PlaceId == 10425191433 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2alivelol/glitchhubrevamp/main/trickshot", true))()
+if game.PlaceId == 3101667897 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2alivelol/glitchhubrevamp/main/legendofspeed", true))()
+else
+game.Players.LocalPlayer:Kick("[Glitch Hub]: Not a supported game. Contact any Developer if you think this is a issue.")
+end    
