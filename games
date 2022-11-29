@@ -10,6 +10,8 @@ elseif game.PlaceId == 3101667897 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/2alivelol/glitchhubrevamp/main/legendofspeed", true))()
 elseif game.PlaceId == 9579228669 then
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/2alivelol/glitchhubrevamp/main/everyday"), true))()
+elseif game.PlaceId == 10889408214 then
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/2alivelol/glitchhubrevamp/main/deflect"), true))()
 else
 game.Players.LocalPlayer:Kick("[Glitch Hub]: Not a supported game. Contact any Developer if you think this is a issue.")
 end
